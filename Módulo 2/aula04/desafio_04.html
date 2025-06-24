@@ -1,0 +1,64 @@
+<!--Desafio da aula-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+
+        header{
+            text-align: center;
+        }
+        #cabecalho{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .demonstration{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #video{
+            height: 350px;
+            width: 500px;
+            border-radius: 20%;
+        }
+        .link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .link :hover{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria</h1>
+    </header>
+
+    <section id="cabecalho">
+        <img src="/Módulo 2/assets/015.png" alt="">
+        <img src="/Módulo 2/assets/011.png" alt="">
+    </section>
+        
+    <section class="demonstration">
+        <iframe id="video" width="1250" height="703" src="https://www.youtube.com/embed/xEC7Tbq4IMM" title="Flutter viveu mais um ano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <p class="link"><a href="https://www.youtube.com/embed/xEC7Tbq4IMM">Assista o vídeo no youtube!</a></p>
+
+    <footer id="rodape">
+        <ul>
+            <li><a href="mailto:junio.geraldo@outlook.com">Envie um E-mail para o suporte</a></li>
+
+            <li><p>(31) 9999-0000</p></li>
+        </ul>
+    </footer>
+</body>
+</html>
