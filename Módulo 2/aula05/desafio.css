@@ -1,0 +1,22 @@
+.produto {
+    width: 200px;
+    padding: 20px;
+    border: solid 2px green;
+    justify-content: center;
+}
+
+.produto img{
+    width: 200px;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.comprar{
+    margin: 8px;
+    background-color: green;
+    border-radius: 15%;
+    font-family: arial;
+}
